@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User-sent</title>
+    
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<p> while online transaction,Transaction Screenshot is important  </p>
+   <div class="container">
+    <form action="https://formsubmit.co/970737b5e57de4cf1730dab161c9873e" method="POST" >
+        <h3>AVAILABLE FOOD</h3>
+        <input type="text" name="roll_no" placeholder="ROll NO:" required>
+        <input type="email" name="email" placeholder="Email id:" required>
+        <input type="text" name="phone" placeholder="PHONE NO:" required>
+        <input type="number" name="no" placeholder="NO.OF SETS" required>
+        
+        <select name="dish" name="dish" required>
+            <option name="0">--R--</option>
+            <option name="1">Parotta</option>
+            <option name="2">Chicken Briyani</option>
+            <option name="3">Dose</option>
+            <option name="4">ROST-VEG</option>
+            <option name="5">Chicken Fries</option>
+            <option name="6">Chicken Noodels</option>
+            <option name="7">Egg Noodles</option>
+            <option name="8">Egg Fries </option>
+            <option name="9">Tea</option>
+            <option name="10">Soda</option>
+        </select>
+        <select name ="online" name="online" required>
+            <option name="11">--R--</option>
+            <option name="11">Yes</option>
+            <option name="12">No</option>
+        </select>
+       
+        <button type="submit">SEND</button>
+    </form>
+    <button id="loginButton">Online Fund</button>
+    <script>
+        
+        const loginButton = document.getElementById("loginButton");
+
+        loginButton.addEventListener("click", function() {
+            
+            window.location.href = "./tomato.html";
+        });
+    </script>
+   </div>
+
+    
+    
+</body>
+</html>

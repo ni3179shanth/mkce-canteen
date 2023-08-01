@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:"Lucida Console", "Courier New", monospace;
+}
+.container{
+width:100%;
+height: 100vh;
+background-image:url(./clem-onojeghuo-zlABb6Gke24-unsplash.jpg);
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+form{
+    background-color:transparent;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    color: white;
+}
+form h3{
+    color: white;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+form input ,form textarea,form select{
+    border:10px;
+    margin:10px 0;
+    padding :20px;
+    outline:none;
+  color: white;
+    background-color:black;
+    font-size: 16px;
+}
+form button{
+    padding: 15px;
+    background:rgb(77, 60, 18);
+    color: white;
+    font-size: 18px;
+    border:0;
+    outline:none;
+    cursor: pointer;
+width: 150px;
+margin:  20px auto 0;
+border-radius: 30px;
+}
+button{
+    width: 90px;
+    height: 90px;
+    font-size: 20px;
+    color:white;
+    margin-top: 85px;
+  
+    background-color: transparent;
+    border:- 20px;
+    cursor: pointer;
+    border-radius: 15px;
+}
